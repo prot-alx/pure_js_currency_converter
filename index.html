@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <ul class="nav-list">
+        <li><a href="#converter" class="nav-link">Конвертер</a></li>
+        <li><a href="#rates" class="nav-link">Курсы валют</a></li>
+    </ul>
+</nav>
+
+<main id="main">
+    <!-- Секция конвертера -->
+    <section id="converter" class="page-section">
+        <div id="baseCurrencyContainer">
+            <select id="baseCurrencySelector">...</select>
+            <input type="text" id="baseCurrencyAmount" placeholder="Enter amount">
+        </div>
+        <div id="targetCurrencyContainer">
+            <select id="targetCurrencySelector">...</select>
+            <span id="result"></span>
+        </div>
+    </section>
+
+    <!-- Секция курсов -->
+    <section id="rates" class="page-section">
+        <!-- Таблица курсов -->
+    </section>
+</main>
+
+    <script src="script.js"></script>
+</body>
+</html>
